@@ -1,23 +1,38 @@
 
 body{
     background-color: rgb(108, 72, 108);
-}.butnum{
+}
+.box{
     width: 400px;
+    /* border: 2px solid red; */
+    height:520px;
+    background: black;
+}
+.butnum{
+    width: 346px;
     display:block;
     margin: auto;
+    /* border:2px solid green */
 }
-
+input{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height:86px;
+    width:372px;
+    background-color: #495057;
+    color: white;
+}
 button{
     width:60px;
-    height:40px;
-    background-color: white;
-    color:white;
+    height:60px;
+    padding: 8px;
+    color: white;
+    background-color:#495057;
     font-weight: 600;
-    font-size: 18px;
-    margin:15px;
+    font-size: 22px;
+    margin:10px;
     border:2px ridge white;
     border-radius: 50%;
-    background-color: black;
     /* margin-left: 20px;
     margin-top:10px; */
 }
